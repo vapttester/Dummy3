@@ -7,3 +7,5 @@ def captcha_generator():
     print(captcha)
     data = image.generate(captcha)
     image.write(captcha, 'CAPTCHA.png')
+
+
